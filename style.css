@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*nav header*/
+.container{
+    width:100%;
+    
+}
+
+.profile{
+    margin-left: 200px;
+    font-size:xx-large;
+}
+
+.nav-bar{
+    display:flex;
+    background-color: black;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    padding: 10px 20px;
+}
+
+.row{
+    width: 40%;
+    display: flex;    
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.row a{
+    color: white;
+    text-decoration: none;
+}
+
+.btn{
+    border: 2px solid gray;
+    background-color: cadetblue;
+    width: 100px;
+    height: 30px;
+    color: antiquewhite;
+    margin-top: 5px;
+}
+/*content body*/
+.content{
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.centerRow{
+    display: flex;
+}
+
+.col1,.col2{
+    margin: 20px;
+    padding: 50px;
+    
+    
+}
+
+.l-icon{
+    border-radius: 50px;
+    width: 100px;
+    position: relative;
+    top: 40px;
+    margin-left: 20px;
+}
+
+.s-icon{
+    width: 20px;
+    
+}
+
+.userCard{
+    border: 2px solid black;
+
+    
+}
+
+.cardHeader{
+    background-color: cadetblue;
+}
+
+.cardBody h1{
+    padding-top: 30px;
+}
+
+.cardBody h1,.cardBody h3,.cardBody p{
+    margin: 10px;
+
+}
+
+.cardFooter{
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+    padding-bottom: 10px;
+
+}
+
+.edu{
+    border: 2px solid black;
+    margin-top: 10px;
+}
+
+.eduHead{
+    background-color: darkgray;
+    color:white;
+}
+
+.eduBody{
+    padding-left: 10px;
+}
+
+
+p{
+    padding-bottom: 10px;
+}
+
+/*col_2*/
+
+.m-icon{
+    width: 20px;
+    height: 20px;
+}
+
+.icon1{
+    width: 50px;
+    border-radius: 50px;
+    
+    
+}
+
+.pic{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 5px;
+}
+
+.request{
+    border: 2px solid black;
+}
+
+.reqHeader{
+    background-color: darkgray;
+    color: white;
+    padding: 5px;
+
+}
+
+.row1{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 5px;
+}
+
+span{
+    background-color:beige;
+    color: black;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+
+.connections{
+    border: 2px solid black;
+    margin-top: 10px;
+    display: table-caption;
+    
+}
+
+.conHeader{
+    background-color: darkgray;
+    color: white;
+}
+
+.conBody{
+    padding: 10px; 
+}
+
+
+.conFooter{
+    border: 4px solid darkgray;
+}
+
+.fiveHead{
+    font-size: 16px;
+}
+
