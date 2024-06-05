@@ -6,8 +6,8 @@ function hide(element){
 
 var element=document.querySelector('#switch');
 
-function change(element){
-    element.change('Dig Doug');
+function name(element){
+    element.change("Dig Doug");
 
     
 }
